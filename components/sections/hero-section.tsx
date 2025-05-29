@@ -66,7 +66,7 @@ export function HeroSection() {
           </SectionTransition>
 
           <SectionTransition transitionType="slide-up" delay={0.7}>
-            <p className="text-lg text-muted-foreground">Pre-Final Year Student at IIT Jammu</p>
+            <p className="text-lg text-muted-foreground">Final Year Student at IIT Jammu</p>
           </SectionTransition>
 
           <SectionTransition transitionType="slide-up" delay={0.9}>
