@@ -107,7 +107,6 @@ export function SectionTransition({
       ref={ref}
       id={id}
       className={cn("will-change-transform", className)}
-      initial="initial"
       whileInView="animate"
       viewport={{ once, margin: "-100px" }}
       {...getAnimationProps()}
