@@ -112,6 +112,15 @@ export function SkillsSection() {
                     Data Structures
                   </Badge>
                   <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
+                    Internet of Things
+                  </Badge>
+                  <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
+                    Robotics & Automation
+                  </Badge>
+                  <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
+                    Control System
+                  </Badge>
+                  <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
                     Digital Communication
                   </Badge>
                   <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
