@@ -10,7 +10,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} Nageshwar Kumar. All rights reserved.
             </p>
-            <p className="text-sm text-muted-foreground mt-2 sm:mt-0">Pre-Final Year Student at IIT Jammu</p>
+            <p className="text-sm text-muted-foreground mt-2 sm:mt-0">Final Year Student at IIT Jammu</p>
           </div>
         </SectionTransition>
       </div>

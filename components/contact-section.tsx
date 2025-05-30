@@ -118,7 +118,7 @@ export function ContactSection() {
 
                 <div className="pt-6 border-t border-border">
                   <p className="text-sm text-muted-foreground">
-                    Currently a pre-final year student at IIT Jammu. Open to internship and collaboration opportunities.
+                    Currently a Final year student at IIT Jammu. Open to internship and collaboration opportunities.
                   </p>
                 </div>
               </CardContent>
