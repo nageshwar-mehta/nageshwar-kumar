@@ -34,7 +34,7 @@ const achievementsData = [
       },
       {
         title: "Runner-Up",
-        description: "Pitchers 3.0",
+        description: "Pitchers 3.0, 40,000 INR",
         icon: <Trophy className="h-6 w-6 text-primary" />,
       },
     ],

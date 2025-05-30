@@ -11,7 +11,7 @@ const experienceData = [
     position: "IoT Intern",
     company: "MyPerro",
     period: "Feb 2025 – Present",
-    description: "Working on IoT solutions for smart pet monitoring systems.",
+    description: " Developing an IoT-based pet location detection system using WiFi geofencing with GPS activation on boundary breach to optimize battery usage; responsible for circuit design, PCB layout, and hardware optimization.",
     icon: <Briefcase className="h-6 w-6 text-primary" />,
   },
   {
@@ -25,14 +25,14 @@ const experienceData = [
     position: "Academic Secretary",
     company: "IIT Jammu",
     period: "Aug 2024 – Jan 2025",
-    description: "Coordinated academic activities and represented student concerns to administration.",
+    description: "Coordinated academic activities and technical events while serving as a liaison between students and the administration.",
     icon: <Briefcase className="h-6 w-6 text-primary" />,
   },
   {
     position: "Technical Assistant",
     company: "CST Advanced Pvt. Ltd.",
     period: "Aug – Dec 2023",
-    description: "Provided technical support for simulation software and assisted in customer training.",
+    description: "Provided technical support for the Anti-GPS Jamming System project and contributed to its presentation at the North-Tech Symposium 2023.",
     icon: <Briefcase className="h-6 w-6 text-primary" />,
   },
 ]
