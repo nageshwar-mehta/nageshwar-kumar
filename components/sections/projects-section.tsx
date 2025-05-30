@@ -79,7 +79,7 @@ const projects: Project[] = [
     tech: ["HTML", "CSS", "Drone"],
     categories: ["Software"],
     github: "https://vimaan-calc.vercel.app/",
-    image: "/images/projects/smart-irrigation.png",
+    image: "/images/projects/drone-calc.png",
   },
   {
     title: "Mesh Network for Remote Areas",
