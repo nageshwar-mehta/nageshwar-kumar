@@ -9,13 +9,13 @@ import { SectionTransition } from "@/components/section-transition"
 const patentsData = [
   {
     title: "Portable Plant Stress Detector",
-    description: "A device that detects water stress in plants using temperature sensors and CWSI algorithm.",
+    description: "A device that detects water stress in plants using IR sensors and incorporates a CWSI (Crop Water Stress Index) scale for specific plant species.",
     filingInfo: "2 patents filed (202511006952, 202511006951), 2024",
     icon: <FileText className="h-6 w-6 text-primary" />,
   },
   {
     title: "Tactile Glove",
-    description: "A communication device that translates text to tactile patterns for deafblind individuals.",
+    description: "A real-time communication device that translates text into tactile patterns for deafblind individuals and converts tactile input back into text.",
     filingInfo: "Provisional patent filed (TEMPE-1/94265/2024-DEL), 2024",
     icon: <FileText className="h-6 w-6 text-primary" />,
   },
