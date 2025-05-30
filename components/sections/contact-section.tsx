@@ -213,7 +213,7 @@ export function ContactSection() {
 
                 <div className="pt-6 border-t border-white/10">
                   <p className="text-sm text-muted-foreground mb-4">
-                    Currently a pre-final year student at IIT Jammu. Open to internship and collaboration opportunities.
+                    Currently a Final year student at IIT Jammu. Open to internship and collaboration opportunities.
                   </p>
 
                   {/* Debug button - remove in production */}
