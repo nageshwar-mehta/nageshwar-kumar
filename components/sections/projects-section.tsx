@@ -28,6 +28,7 @@ interface Project {
   awards?: string[]
   patent?: string
   patents?: string[]
+  Research?: string
   collaboration?: string
   showcase?: string
   github: string
@@ -78,6 +79,7 @@ const projects: Project[] = [
     description: "An online calculator designed to analyze drone performance based on various parameters.",
     tech: ["HTML", "CSS", "Drone"],
     categories: ["Software"],
+    Research:"Writing a research in Collaboration with Dr.Nalin kumar sharma (Assistant Professor, IIT Jammu)",
     github: "https://vimaan-calc.vercel.app/",
     image: "/images/projects/drone-calc.png",
   },
