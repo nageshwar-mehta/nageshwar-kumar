@@ -79,7 +79,7 @@ const projects: Project[] = [
     description: "An online calculator designed to analyze drone performance based on various parameters.",
     tech: ["HTML", "CSS", "Drone"],
     categories: ["Software"],
-    collaboration:"Writing a research paper in Collaboration with Dr.Nalin kumar sharma (Assistant Professor, IIT Jammu)",
+    collaboration:"Writing a research paper in Supervision of Dr.Nalin kumar sharma (Assistant Professor, IIT Jammu)",
     github: "https://vimaan-calc.vercel.app/",
     image: "/images/projects/drone-calc.png",
   },
