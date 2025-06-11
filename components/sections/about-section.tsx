@@ -56,7 +56,7 @@ export function AboutSection() {
                       <p className="text-muted-foreground leading-relaxed">
                         I am passionate about IoT, Machine Learning, and hardware-software integrations. My focus is on
                         developing smart devices and optimizing algorithms to bridge hardware-software gaps for
-                        impactful solutions.
+                        impactful solutions..
                       </p>
 
                       <p className="text-muted-foreground leading-relaxed">
