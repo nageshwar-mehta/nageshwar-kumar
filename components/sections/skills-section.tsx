@@ -27,7 +27,7 @@ const skillCategories = [
     id: "tools",
     name: "Tools",
     icon: <Wrench className="h-5 w-5" />,
-    skills: ["Git", "VS Code", "Jupyter Notebook", "Arduino IDE", "Power BI"],
+    skills: ["Git", "VS Code", "Jupyter Notebook", "Arduino IDE", "Power BI", "Figma"],
   },
   {
     id: "hardware",
