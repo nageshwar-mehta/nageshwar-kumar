@@ -80,7 +80,7 @@ const projects: Project[] = [
     tech: ["HTML", "CSS", "Drone"],
     categories: ["Software"],
     collaboration:"Writing a research paper under Supervision of Dr.Nalin kumar sharma (Assistant Professor, IIT Jammu)",
-    github: "https://vimaan-calc.vercel.app/",
+    github: "https://vimaan-calc-iitjmu.vercel.app/",
     image: "/images/projects/drone-calc.png",
   },
   {
