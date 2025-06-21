@@ -75,12 +75,12 @@ const projects: Project[] = [
     image: "/images/projects/plant-water-stress.png",
   },
   {
-    title: "VimaanCalc: Propulsion Analysis for Drones",
-    description: "An online calculator designed to analyze drone performance based on various parameters.",
-    tech: ["HTML", "CSS", "Drone"],
+    title: "VimaanSutra: Toolbox for Estimating UAV Battery Requirements and Flight Time",
+    description: "A toolbox supports two operational modes: calculating the required battery capacity for a desired flight time, and estimating achievable flight time based on given battery specifications.",
+    tech: ["TypeScript","HTML", "CSS", "Drone"],
     categories: ["Software"],
-    collaboration:"Writing a research paper under Supervision of Dr.Nalin kumar sharma (Assistant Professor, IIT Jammu)",
-    github: "https://vimaan-calc-iitjmu.vercel.app/",
+    collaboration:"Currently writing a research paper under the supervision of Dr. Nalin Kumar Sharma (Assistant Professor, Department of Electrical Engineering, IIT Jammu) and Dr. Rahul R. Salunkhe (Assistant Professor, Department of Physics, IIT Jammu).",
+    github: "https://vimaan-sutra-beta.vercel.app/",
     image: "/images/projects/drone-calc.png",
   },
   {
