@@ -39,7 +39,7 @@ const skillCategories = [
     id: "cad",
     name: "CAD/Simulation tools",
     icon: <BookOpen className="h-5 w-5" />,
-    skills: ["Kicad", "Quilter", "CST Studio Suite", "MATLAB", "SolidWorks", "LaTeX"],
+    skills: ["Kicad", "Quilter", "Vivado Xilinx", "LT Spice", "CST Studio Suite", "MATLAB", "SolidWorks", "LaTeX"],
   },
 ]
 

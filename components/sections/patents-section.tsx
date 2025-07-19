@@ -10,7 +10,7 @@ const patentsData = [
   {
     title: "Portable Plant Stress Detector",
     description: "A device that detects water stress in plants using IR sensors and incorporates a CWSI (Crop Water Stress Index) scale for specific plant species.",
-    filingInfo: "2 patents filed (202511006952, 202511006951), 2024",
+    filingInfo: "2 patents filed (202511006952, 202511006951), 2025",
     icon: <FileText className="h-6 w-6 text-primary" />,
   },
   {
