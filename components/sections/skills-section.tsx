@@ -124,6 +124,12 @@ export function SkillsSection() {
                     Digital Communication
                   </Badge>
                   <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
+                    Digital Design
+                  </Badge>
+                  <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
+                    Analog Electronics
+                  </Badge>
+                  <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
                     RF & Antennas
                   </Badge>
                   <Badge className="glass text-purple-300 hover:text-purple-200 transition-colors px-3 py-1.5">
