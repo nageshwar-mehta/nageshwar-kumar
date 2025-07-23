@@ -98,7 +98,7 @@ const projects: Project[] = [
     tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
     categories: ["Embedded", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Fixed%20posit%20multiplier/Fixed%20posit%20multiplier.srcs/sources_1/new",
-    image: "/images/projects/fixed-posit-multiplication-2.png",
+    image: "/images/projects/fixed-posit-multiplication-3.png",
     Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
 ]
