@@ -84,15 +84,7 @@ const projects: Project[] = [
     github: "https://vimaan-sutra-beta.vercel.app/",
     image: "/images/projects/drone-calc.png",
   },
-  {
-    title: "Mesh Network for Remote Areas",
-    description: "A LoRa network solution designed to enable communication in remote areas with limited connectivity.",
-    tech: ["Dragino", "LoRa", "Chirpstack"],
-    categories: ["IoT", "Hardware"],
-    github: "https://github.com/nageshwar-mehta/LORA",
-    image: "/images/projects/mesh-network.png",
-  },
-  {
+   {
     title: "Fixed-Posit Multiplier",
     description: "Implemented a fixed-posit multiplier in Verilog to explore posit arithmetic as an alternative to IEEE-754 floating point. The design fixes regime and exponent bits to simplify hardware implementation.Includes clean testbenches for functional verification.",
     tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
@@ -101,6 +93,15 @@ const projects: Project[] = [
     image: "/images/projects/fixed-posit-multiplication-3.png",
     Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
+  {
+    title: "Mesh Network for Remote Areas",
+    description: "A LoRa network solution designed to enable communication in remote areas with limited connectivity.",
+    tech: ["Dragino", "LoRa", "Chirpstack"],
+    categories: ["IoT", "Hardware"],
+    github: "https://github.com/nageshwar-mehta/LORA",
+    image: "/images/projects/mesh-network.png",
+  },
+ 
 ]
 
 // All available categories
