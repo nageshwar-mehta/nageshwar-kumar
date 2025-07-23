@@ -33,6 +33,7 @@ interface Project {
   showcase?: string
   github: string
   image: string
+  reference?: string
 }
 
 const projects: Project[] = [
@@ -90,6 +91,15 @@ const projects: Project[] = [
     categories: ["IoT", "Hardware"],
     github: "https://github.com/nageshwar-mehta/LORA",
     image: "/images/projects/mesh-network.png",
+  },
+  {
+    title: "Fixed-Posit Multiplier",
+    description: "Implemented a fixed-posit multiplier in Verilog to explore posit arithmetic as an alternative to IEEE-754 floating point. The design fixes regime and exponent bits to simplify hardware implementation.Includes clean testbenches for functional verification.",
+    tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
+    categories: ["Embedded", "Software"],
+    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Fixed%20posit%20multiplier/Fixed%20posit%20multiplier.srcs/sources_1/new",
+    image: "/images/projects/fixed-posit-multiplication.png",
+    reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
 ]
 
