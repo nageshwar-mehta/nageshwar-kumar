@@ -344,6 +344,12 @@ export function ProjectsSection() {
                             <p className="text-sm text-muted-foreground">Collaboration: {project.collaboration}</p>
                           </div>
                         )}
+                        {project.reference && (
+                          <div className="flex items-start gap-2">
+                            <ExternalLink className="h-4 w-4 text-green-500 mt-0.5" />
+                            <p className="text-sm text-muted-foreground">reference: {project.reference}</p>
+                          </div>
+                        )}
 
                         {project.showcase && (
                           <div className="flex items-start gap-2">
