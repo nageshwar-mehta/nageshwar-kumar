@@ -33,7 +33,7 @@ interface Project {
   showcase?: string
   github: string
   image: string
-  reference?: string
+  Reference?: string
 }
 
 const projects: Project[] = [
@@ -99,7 +99,7 @@ const projects: Project[] = [
     categories: ["Embedded", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Fixed%20posit%20multiplier/Fixed%20posit%20multiplier.srcs/sources_1/new",
     image: "/images/projects/fixed-posit-multiplication.png",
-    reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
+    Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
 ]
 
@@ -344,10 +344,10 @@ export function ProjectsSection() {
                             <p className="text-sm text-muted-foreground">Collaboration: {project.collaboration}</p>
                           </div>
                         )}
-                        {project.reference && (
+                        {project.Reference && (
                           <div className="flex items-start gap-2">
                             <FileText className="h-4 w-4 text-blue-500 mt-0.5" />
-                            <p className="text-sm text-muted-foreground">reference: {project.reference}</p>
+                            <p className="text-sm text-muted-foreground">Reference: {project.Reference}</p>
                           </div>
                         )}
 
