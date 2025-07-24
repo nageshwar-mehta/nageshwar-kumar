@@ -94,6 +94,15 @@ const projects: Project[] = [
     Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
+    title: "4-Tap FIR Filter",
+    description: "Implemented a 4-tap pipelined FIR filter in Verilog for real-time signal processing applications. The design leverages a multi-stage pipeline architecture to improve throughput, with stages for input delay, coefficient multiplication, and progressive summation. Includes clean testbenches for functional verification and timing analysis.",
+    tech: ["Vivado Xilinx", "Verilog", "Digital Design","Signal Processing"],
+    categories: ["Embedded", "Software"],
+    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Sequential%20Circuits/Pipelined%20FIR%20filter/Pipelined%20FIR%20filter.srcs/sources_1/new",
+    image: "/images/projects/FIR-Filter-2.png",
+    // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
+  },
+  {
     title: "Mesh Network for Remote Areas",
     description: "A LoRa network solution designed to enable communication in remote areas with limited connectivity.",
     tech: ["Dragino", "LoRa", "Chirpstack"],
