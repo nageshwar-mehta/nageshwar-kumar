@@ -10,7 +10,7 @@ const experienceData = [
   {
     position: "IoT Intern",
     company: "MyPerro",
-    period: "Feb 2025 – Present",
+    period: "Feb 2025 – July 2025",
     description: " Developing an IoT-based pet location detection system using WiFi geofencing with GPS activation on boundary breach to optimize battery usage; responsible for circuit design, PCB layout, and hardware optimization.",
     icon: <Briefcase className="h-6 w-6 text-primary" />,
   },
