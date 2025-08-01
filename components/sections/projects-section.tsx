@@ -85,6 +85,15 @@ const projects: Project[] = [
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
+    title: "Synchronous FIFO",
+    description: "Designed and implemented a parameterized synchronous FIFO (First-In-First-Out) buffer using Verilog HDL. Verified functionality through a clock-aligned testbench with dynamic write and read operations. Useful in digital pipelines, UARTs, and dataflow systems.",
+    tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
+    categories: ["Embedded", "Software"],
+    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/FIFO/FIFO.srcs",
+    image: "/images/projects/FIR-Filter-2.png",
+    // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
+  },
+  {
     title: "Plant Water Stress Detector",
     description: "A device that detects water stress in plants using IR sensors and incorporates a CWSI (Crop Water Stress Index) scale for specific plant species.",
     tech: ["Arduino", "MLX90614 sensor", "Agriculture Tech"],
