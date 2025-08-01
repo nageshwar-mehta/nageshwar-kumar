@@ -90,7 +90,7 @@ const projects: Project[] = [
     tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
     categories: ["Embedded", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/FIFO/FIFO.srcs",
-    image: "/images/projects/FIR-Filter-2.png",
+    image: "/images/projects/Synch-fifo1.png",
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
