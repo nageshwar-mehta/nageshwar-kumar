@@ -17,7 +17,7 @@ import { EmptyState } from "@/components/ui/empty-state"
 import { ProjectFilterStats } from "@/components/project-filter-stats"
 
 // Define project categories
-type ProjectCategory = "All" | "IoT" | "Embedded" | "Military" | "Agriculture" | "Hardware" | "Software"
+type ProjectCategory = "All" | "IoT" | "VLSI" | "Military" | "Agriculture" | "Hardware" | "Software" |"Robotics"
 
 // Enhanced project type with categories
 interface Project {
@@ -38,10 +38,20 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Autonoumous electric vehicle",
+    description: "An autonomous electric vehicle designed for indoor navigation, featuring obstacle avoidance and path planning capabilities. (Ongoing project - BTP)",
+    tech: ["Jetson", "sensors", "Actuators", " Controllers", "IoT" , "Machine Learning"],
+    categories: ["IoT", "Hardware", "Robotics"],
+    // awards: ["200,000 INR (Best Invention Award)", "Hyundai Hope Scholarship","Runner Up Pitchers 3.0"],
+    // patent: "Provisional filed (TEMPE-1/94265/2024-DEL)",
+    github: "https://github.com/nageshwar-mehta/AutonomousEV",
+    image: "/images/projects/EV1.png",
+  },
+  {
     title: "Tactile Glove for Deafblind Communication",
     description: "A real-time communication device that translates text into tactile patterns for deafblind individuals and converts tactile input back into text.",
     tech: ["ESP", "MPR121 sensors", "ERM vibration", "IoT"],
-    categories: ["IoT", "Hardware", "Embedded"],
+    categories: ["IoT", "Hardware"],
     awards: ["200,000 INR (Best Invention Award)", "Hyundai Hope Scholarship","Runner Up Pitchers 3.0"],
     patent: "Provisional filed (TEMPE-1/94265/2024-DEL)",
     github: "https://github.com/nageshwar-mehta/Invention-Factory",
@@ -51,7 +61,7 @@ const projects: Project[] = [
     title: "Laser Warning System",
     description: "A system to detect and warn about laser targeting for military tanks.",
     tech: ["Embedded Systems", "Laser Detection", "Military Tech"],
-    categories: ["Military", "Hardware", "Embedded"],
+    categories: ["Military", "Hardware"],
     collaboration: "Indian Army (150,000 INR grant)",
     patent: "In process",
     github: "https://github.com/nageshwar-mehta/LWS",
@@ -70,7 +80,7 @@ const projects: Project[] = [
     title: "Fixed-Posit Multiplier",
     description: "Implemented a fixed-posit multiplier in Verilog to explore posit arithmetic as an alternative to IEEE-754 floating point. The design fixes regime and exponent bits to simplify hardware implementation.Includes clean testbenches for functional verification.",
     tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
-    categories: ["Embedded", "Software"],
+    categories: ["VLSI", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Fixed%20posit%20multiplier/Fixed%20posit%20multiplier.srcs/sources_1/new",
     image: "/images/projects/fixed-posit-multiplication-3.png",
     Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
@@ -79,7 +89,7 @@ const projects: Project[] = [
     title: "4-Tap FIR Filter",
     description: "Implemented a 4-tap pipelined FIR filter in Verilog for real-time signal processing applications. The design leverages a multi-stage pipeline architecture to improve throughput, with stages for input delay, coefficient multiplication, and progressive summation. Includes clean testbenches for functional verification and timing analysis.",
     tech: ["Vivado Xilinx", "Verilog", "Digital Design","Signal Processing"],
-    categories: ["Embedded", "Software"],
+    categories: ["VLSI", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Sequential%20Circuits/Pipelined%20FIR%20filter/Pipelined%20FIR%20filter.srcs/sources_1/new",
     image: "/images/projects/FIR-Filter-2.png",
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
@@ -88,7 +98,7 @@ const projects: Project[] = [
     title: "Synchronous FIFO",
     description: "Designed and implemented a parameterized synchronous FIFO (First-In-First-Out) buffer using Verilog HDL. Verified functionality through a clock-aligned testbench with dynamic write and read operations. Useful in digital pipelines, UARTs, and dataflow systems.",
     tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
-    categories: ["Embedded", "Software"],
+    categories: ["VLSI", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/FIFO/FIFO.srcs",
     image: "/images/projects/synch_fifo2.png",
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
@@ -123,7 +133,7 @@ const projects: Project[] = [
 ]
 
 // All available categories
-const allCategories: ProjectCategory[] = ["All", "IoT", "Embedded", "Military", "Agriculture", "Hardware", "Software"]
+const allCategories: ProjectCategory[] = ["All", "IoT", "VLSI", "Military", "Agriculture", "Hardware", "Software","Robotics"]
 
 export function ProjectsSection() {
   const [selectedCategory, setSelectedCategory] = useState<ProjectCategory>("All")
