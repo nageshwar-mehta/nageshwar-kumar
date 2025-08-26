@@ -104,6 +104,15 @@ const projects: Project[] = [
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
+    title: "Adders",
+    description: "Designed and implemented various adders (Full, Ripple Carry, Carry Look-Ahead, Carry Select) in Verilog HDL. Verified correctness through testbenches and analyzed performance for efficient digital arithmetic.",
+    tech: ["Vivado Xilinx", "Verilog", "Digital Design","Arithmetic Circuits"],
+    categories: ["VLSI", "Software"],
+    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/ADDERS/ADDERS.srcs",
+    image: "/images/projects/adders.png",
+    // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
+  },
+  {
     title: "Plant Water Stress Detector",
     description: "A device that detects water stress in plants using IR sensors and incorporates a CWSI (Crop Water Stress Index) scale for specific plant species.",
     tech: ["Arduino", "MLX90614 sensor", "Agriculture Tech"],
