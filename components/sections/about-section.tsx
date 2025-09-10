@@ -17,7 +17,7 @@ export function AboutSection() {
       <SectionTransition transitionType="fade">
         <SectionHeading
           title="About Me"
-          subtitle="Passionate about IoT, Machine Learning, and hardware-software integrations"
+          subtitle="Passionate about IoT, VLSI, and hardware-software integrations"
         />
       </SectionTransition>
 
@@ -54,7 +54,7 @@ export function AboutSection() {
                   <CardContent className="p-6 space-y-6">
                     <div className="space-y-4">
                       <p className="text-muted-foreground leading-relaxed">
-                        I am passionate about IoT, Machine Learning, and hardware-software integrations. My focus is on
+                        I am passionate about IoT, VLSI, and hardware-software integrations. My focus is on
                         developing smart devices and optimizing algorithms to bridge hardware-software gaps for
                         impactful solutions.
                       </p>
