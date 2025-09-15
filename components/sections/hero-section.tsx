@@ -26,8 +26,7 @@ export function HeroSection() {
   const words = [
     { text: "IoT" },
     { text: "•" },
-    { text: "Machine" },
-    { text: "Learning" },
+    { text: "VLSI" },
     { text: "•" },
     { text: "Hardware" },
     { text: "Integration" },
