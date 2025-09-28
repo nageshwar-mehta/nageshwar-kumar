@@ -76,6 +76,24 @@ const projects: Project[] = [
     github: "https://github.com/nageshwar-mehta",
     image: "/images/projects/anti-gps-jamming.png",
   },
+  {
+    title: "Spectrum Sensing & SI Cancellation in Cognitive Radios",
+    description: "Implemented FFT-based multiband spectrum sensing hardware for a full-duplex cognitive radio receiver. Addressed residual self-interference masking weak signals under multipath fading conditions. Integrated Xilinx FFT IP (64-point, 16-bit fixed-point) with custom Verilog DSP modules (complex multipliers, dividers, adders) and validated against MATLAB and Python reference models.",
+    tech: ["Verilog", "Vivado Xilinx", "FFT IP Core", "DSP", "Cognitive Radio"],
+    categories: ["VLSI", "Hardware", "Software"],
+    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/Cognitive%20Radio%202",
+    image: "/images/projects/CR.png",
+    // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
+  },
+  {
+    title: "FIFO Buffers (Synchronous & Asynchronous)",
+    description: "Designed and implemented parameterized FIFO buffers in Verilog HDL to handle high-throughput data storage across synchronous and asynchronous clock domains. The synchronous FIFO uses counter-based full/empty detection under a single clock, while the asynchronous FIFO employs Gray-coded pointers with 2-FF synchronizers to safely resolve metastability during clock domain crossing. These designs are essential for UARTs, digital pipelines, and multi-clock SoCs.",
+    tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
+    categories: ["VLSI", "Software"],
+    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/FIFO/FIFO.srcs",
+    image: "/images/projects/synch_fifo2.png",
+    // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
+  },
    {
     title: "Fixed-Posit Multiplier",
     description: "Implemented a fixed-posit multiplier in Verilog to explore posit arithmetic as an alternative to IEEE-754 floating point. The design fixes regime and exponent bits to simplify hardware implementation.Includes clean testbenches for functional verification.",
@@ -95,21 +113,12 @@ const projects: Project[] = [
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
-    title: "FIFO Buffers (Synchronous & Asynchronous)",
-    description: "Designed and implemented parameterized FIFO buffers in Verilog HDL to handle high-throughput data storage across synchronous and asynchronous clock domains. The synchronous FIFO uses counter-based full/empty detection under a single clock, while the asynchronous FIFO employs Gray-coded pointers with 2-FF synchronizers to safely resolve metastability during clock domain crossing. These designs are essential for UARTs, digital pipelines, and multi-clock SoCs.",
-    tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
-    categories: ["VLSI", "Software"],
-    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/FIFO/FIFO.srcs",
-    image: "/images/projects/synch_fifo2.png",
-    // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
-  },
-  {
-    title: "Adders",
-    description: "Designed and implemented various adders (Full, Ripple Carry, Carry Look-Ahead, Carry Select) in Verilog HDL. Verified correctness through testbenches and analyzed performance for efficient digital arithmetic.",
+    title: "Verilog VLSI Project Library",
+    description: "A personal learning-driven library of synthesizable Verilog HDL modules and VLSI design blocks. The library covers combinational and sequential circuits, arithmetic units, converters, FIFOs, and DSP modules — all written, tested, and shared openly to help students and hobbyists explore digital design. Includes implementations from basic gates to advanced designs like FFT-based spectrum sensing in cognitive radios.",
     tech: ["Vivado Xilinx", "Verilog", "Digital Design","Arithmetic Circuits"],
-    categories: ["VLSI", "Software"],
-    github: "https://github.com/nageshwar-mehta/Verilog/tree/main/ADDERS/ADDERS.srcs",
-    image: "/images/projects/adders.png",
+    categories: ["VLSI","Hardware", "Software"],
+    github: "https://vlsi-library.vercel.app/",
+    image: "/images/projects/vlsi-library.png",
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
