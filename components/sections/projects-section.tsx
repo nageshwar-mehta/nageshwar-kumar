@@ -95,8 +95,8 @@ const projects: Project[] = [
     // Reference: "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: \"Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications\""
   },
   {
-    title: "Synchronous FIFO",
-    description: "Designed and implemented a parameterized synchronous FIFO (First-In-First-Out) buffer using Verilog HDL. Verified functionality through a clock-aligned testbench with dynamic write and read operations. Useful in digital pipelines, UARTs, and dataflow systems.",
+    title: "FIFO Buffers (Synchronous & Asynchronous)",
+    description: "Designed and implemented parameterized FIFO buffers in Verilog HDL to handle high-throughput data storage across synchronous and asynchronous clock domains. The synchronous FIFO uses counter-based full/empty detection under a single clock, while the asynchronous FIFO employs Gray-coded pointers with 2-FF synchronizers to safely resolve metastability during clock domain crossing. These designs are essential for UARTs, digital pipelines, and multi-clock SoCs.",
     tech: ["Vivado Xilinx", "Verilog", "Digital Design"],
     categories: ["VLSI", "Software"],
     github: "https://github.com/nageshwar-mehta/Verilog/tree/main/FIFO/FIFO.srcs",
