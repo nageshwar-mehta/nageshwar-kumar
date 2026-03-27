@@ -8,19 +8,26 @@ import { SectionTransition } from "@/components/section-transition"
 
 const experienceData = [
   {
+    position: "Digital Design Intern",
+    company: "MOSart Semiconductor",
+    period: "Jan 2026 – Present",
+    description: "Working on ARM Cortex-M series processors, with a focus on CPI analysis, cache and TCM behavior, Arm CoreSight debugger configuration, and SoC integration of the Cortex-M55 IP to meet the requirements of a high precision BMS-on-Chip SoC.",
+    icon: <Briefcase className="h-6 w-6 text-primary" />,
+  },
+  {
     position: "IoT Intern",
     company: "MyPerro",
     period: "Feb 2025 – July 2025",
     description: " Developing an IoT-based pet location detection system using WiFi geofencing with GPS activation on boundary breach to optimize battery usage; responsible for circuit design, PCB layout, and hardware optimization.",
     icon: <Briefcase className="h-6 w-6 text-primary" />,
   },
-  {
-    position: "HR Intern",
-    company: "Aruyog",
-    period: "Jan – Apr 2025",
-    description: "Assisted in recruitment and employee engagement initiatives.",
-    icon: <Briefcase className="h-6 w-6 text-primary" />,
-  },
+  // {
+  //   position: "HR Intern",
+  //   company: "Aruyog",
+  //   period: "Jan – Apr 2025",
+  //   description: "Assisted in recruitment and employee engagement initiatives.",
+  //   icon: <Briefcase className="h-6 w-6 text-primary" />,
+  // },
   {
     position: "Academic Secretary",
     company: "IIT Jammu",
