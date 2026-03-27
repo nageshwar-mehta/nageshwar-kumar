@@ -12,7 +12,7 @@ const educationData = [
   {
     institution: "Indian Institute of Technology, Jammu",
     degree: "B.Tech in Electrical Engineering",
-    grade: "CGPA: 9.11/10",
+    grade: "CGPA: 9.07/10",
     period: "November 2022 – Present",
     icon: <GraduationCap className="h-6 w-6 text-primary" />,
   },
