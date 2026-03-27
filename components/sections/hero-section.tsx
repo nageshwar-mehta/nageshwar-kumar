@@ -94,7 +94,7 @@ export function HeroSection() {
 
           <SectionTransition transitionType="fade" delay={1.1}>
             <div className="mt-8 text-muted-foreground">
-              <p className="text-sm">Winner Invention-Factory | Runner-UP Pitchers 3.0 | IoT-Intern @ MyPerro</p>
+              <p className="text-sm">Winner Invention-Factory | Runner-UP Pitchers 3.0 | Digital Design Intern @ MOSart Semi</p>
             </div>
           </SectionTransition>
         </motion.div>
